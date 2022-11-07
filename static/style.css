@@ -1,0 +1,72 @@
+body {
+    background-color: #3f3131;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.chat-box {
+    background-color: #3ab164;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+}
+
+#username-message {
+    background-color: #3ab164;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+}
+
+#username {
+    background-color: #10a444;
+    color: #ffffff; /*default color if the user doesn't find out the custom color usernames 😉*/
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    margin: 2px;
+    padding: 2px;
+}
+
+#message {
+    background-color: #12cb53;
+    color: #000000;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    margin: 2px;
+}
+
+#send {
+    width: 60px;
+    height: 20px;
+    margin: 2px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.messageBlock {
+    background-color: #12cb53;
+    color: #000000;
+    margin: 2px;
+}
